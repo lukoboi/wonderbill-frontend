@@ -8,7 +8,7 @@ This is the WonderBill frontend coding challenge to build a bill payment app. Th
 
 - Typescript with React
 - React Context for state management
-- Tailwind CSS for styling
+- TailwindCSS for styling
 - Formik with Yup for form input and validation
 - date-fns for date formatting
 - React testing library for unit testing
