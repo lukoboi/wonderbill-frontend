@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Hind', sans-serif;
+}
+
+/* Used for removing the chrome default date placeholder text */
+input[type='date']:in-range::-webkit-datetime-edit-year-field,
+input[type='date']:in-range::-webkit-datetime-edit-month-field,
+input[type='date']:in-range::-webkit-datetime-edit-day-field,
+input[type='date']:in-range::-webkit-datetime-edit-text {
+  color: transparent;
+}
